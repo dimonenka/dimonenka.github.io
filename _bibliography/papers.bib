@@ -1,84 +1,210 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{ivanov2024personalized,
+    title = {Personalized Reinforcement Learning with a Budget of Policies},
+    author = {Ivanov, Dmitry and Ben-Porat, Omer},
+    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    year = {2024},
+    selected = {true},
+    arxiv = {2401.06514},
+    abstract = {Personalization in machine learning (ML) tailors models' decisions to the individual characteristics
+    of users. While this approach has seen success in areas like recommender systems, its expansion into high-stakes
+    fields such as healthcare and autonomous driving is hindered by the extensive regulatory approval processes
+    involved. To address this challenge, we propose a novel framework termed represented Markov Decision Processes
+    (r-MDPs) that is designed to balance the need for personalization with the regulatory constraints. In an r-MDP,
+    we cater to a diverse user population, each with unique preferences, through interaction with a small set of
+    representative policies. Our objective is twofold: efficiently match each user to an appropriate representative
+    policy and simultaneously optimize these policies to maximize overall social welfare. We develop two deep
+    reinforcement learning algorithms that efficiently solve r-MDPs. These algorithms draw inspiration from the
+    principles of classic K-means clustering and are underpinned by robust theoretical foundations. Our empirical
+    investigations, conducted across a variety of simulated environments, showcase the algorithms' ability to
+    facilitate meaningful personalization even under constrained policy budgets. Furthermore, they demonstrate
+    scalability, efficiently adapting to larger policy budgets.},
+    bibtex_show = {true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{wang2023deep,
+    title = {Deep Contract Design via Discontinuous Networks},
+    author = {Wang, Tonghan and Duetting, Paul and Ivanov, Dmitry and Talgam-Cohen, Inbal and Parkes, David C},
+    booktitle = {Thirty-seventh Conference on Neural Information Processing Systems},
+    year = {2023},
+    selected = {true},
+    arxiv = {2307.02318},
+    poster = {https://neurips.cc/virtual/2023/poster/70374},
+    abstract = {Contract design involves a principal who establishes contractual agreements about payments for
+    outcomes that arise from the actions of an agent. In this paper, we initiate the study of deep learning for the
+    automated design of optimal contracts. We introduce a novel representation: the Discontinuous ReLU (DeLU)
+    network, which models the principal's utility as a discontinuous piecewise affine function of the design of a
+    contract where each piece corresponds to the agent taking a particular action. DeLU networks implicitly learn
+    closed-form expressions for the incentive compatibility constraints of the agent and the utility maximization
+    objective of the principal, and support parallel inference on each piece through linear programming or
+    interior-point methods that solve for optimal contracts. We provide empirical results that demonstrate success in
+ approximating the principal's utility function with a small number of training samples and scaling to find
+    approximately optimal contracts on problems with a large number of actions and outcomes.},
+    bibtex_show = {true},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{ivanov2023mediated,
+    title = {Mediated Multi-Agent Reinforcement Learning},
+    author = {Ivanov, Dmitry and Zisman, Ilya and Chernyshev, Kirill},
+    booktitle = {Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems},
+    pages = {49--57},
+    year = {2023},
+    selected = {true},
+    website = {https://dl.acm.org/doi/abs/10.5555/3545946.3598618},
+    arxiv = {2306.08419},
+    abstract = {The majority of Multi-Agent Reinforcement Learning (MARL) literature equates the cooperation of
+    self-interested agents in mixed environments to the problem of social welfare maximization, allowing agents to
+    arbitrarily share rewards and private information. This results in agents that forgo their individual goals in
+    favour of social good, which can potentially be exploited by selfish defectors. We argue that cooperation also
+    requires agents' identities and boundaries to be respected by making sure that the emergent behaviour is an
+    equilibrium, i.e., a convention that no agent can deviate from and receive higher individual payoffs. Inspired by
+ advances in mechanism design, we propose to solve the problem of cooperation, defined as finding socially beneficial
+ equilibrium, by using mediators. A mediator is a benevolent entity that may act on behalf of agents, but only for
+    the agents that agree to it. We show how a mediator can be trained alongside agents with policy gradient to
+    maximize social welfare subject to constraints that encourage agents to cooperate through the mediator. Our
+    experiments in matrix and iterative games highlight the potential power of applying mediators in MARL.},
+    bibtex_show = {true},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{ivanov2022optimal,
+    title = {Optimal-er auctions through attention},
+    author = {Ivanov, Dmitry and Safiulin, Iskander and Filippov, Igor and Balabaeva, Ksenia},
+    journal = {Advances in Neural Information Processing Systems},
+    volume = {35},
+    pages = {34734--34747},
+    year = {2022},
+    selected = {true},
+    website = {https://papers.nips.cc/paper_files/paper/2022/hash/e0c07bb70721255482020afca44cabf2-Abstract-Conference.html},
+    arxiv = {2202.13110},
+    abstract = {RegretNet is a recent breakthrough in the automated design of revenue-maximizing auctions. It
+    combines the flexibility of deep learning with the regret-based approach to relax the Incentive Compatibility
+    (IC) constraint (that participants prefer to bid truthfully) in order to approximate optimal auctions. We propose
+ two independent improvements of RegretNet. The first is a neural architecture denoted as RegretFormer that is based
+    on attention layers. The second is a loss function that requires explicit specification of an acceptable IC
+    violation denoted as regret budget. We investigate both modifications in an extensive experimental study that
+    includes settings with constant and inconstant numbers of items and participants, as well as novel validation
+    procedures tailored to regret-based approaches. We find that RegretFormer consistently outperforms RegretNet in
+    revenue (ie is optimal-er) and that our loss function both simplifies hyperparameter tuning and allows to
+    unambiguously control the revenue-regret trade-off by selecting the regret budget.},
+    bibtex_show = {true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{pshikhachev2021self,
+    title = {Self-Imitation Learning from Demonstrations},
+    author = {Pshikhachev, Georgiy and Ivanov, Dmitry and Egorov, Vladimir and Shpilman, Aleksei},
+    booktitle = {Deep RL Workshop NeurIPS 2021},
+    year = {2021},
+    arxiv = {2203.10905},
+    website = {https://openreview.net/forum?id=fYcViVwEH3U},
+    key = {value},
+    abstract = {Despite the numerous breakthroughs achieved with Reinforcement Learning (RL), solving environments
+    with sparse rewards remains a challenging task that requires sophisticated exploration. Learning from
+    Demonstrations (LfD) remedies this issue by guiding the agent's exploration towards states experienced by an
+    expert. Naturally, the benefits of this approach hinge on the quality of demonstrations, which are rarely optimal
+ in realistic scenarios. Modern LfD algorithms require meticulous tuning of hyperparameters that control the
+    influence of demonstrations and, as we show in the paper, struggle with learning from suboptimal demonstrations.
+    To address these issues, we extend Self-Imitation Learning (SIL), a recent RL algorithm that exploits the agent's
+ past good experience, to the LfD setup by initializing its replay buffer with demonstrations. We denote our
+    algorithm as SIL from Demonstrations (SILfD). We empirically show that SILfD can learn from demonstrations that
+    are noisy or far from optimal and can automatically adjust the influence of demonstrations throughout the
+    training without additional hyperparameters or handcrafted schedules. We also find SILfD superior to the existing
+ state-of-the-art LfD algorithms in sparse environments, especially when demonstrations are highly suboptimal.},
+    bibtex_show = {true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{laurent2021flatland,
+    title = {Flatland competition 2020: MAPF and MARL for efficient train coordination on a grid world},
+    author = {Laurent, Florian and Schneider, Manuel and Scheller, Christian and Watson, Jeremy and Li, Jiaoyang and
+    Chen, Zhe and Zheng, Yi and Chan, Shao-Hung and Makhnev, Konstantin and Svidchenko, Oleg and Ivanov, Dmitry
+    and others},
+    booktitle = {NeurIPS 2020 Competition and Demonstration Track},
+    pages = {275--301},
+    year = {2021},
+    organization = {PMLR},
+    website = {https://proceedings.mlr.press/v133/laurent21a.html},
+    pdf = {https://s-agarwl.github.io/files/Laurent2021Flatland.pdf},
+    abstract = {The Flatland competition aimed at finding novel approaches to solve the vehicle re-scheduling problem
+ (VRSP). The VRSP is concerned with scheduling trips in traffic networks and the re-scheduling of vehicles when
+    disruptions occur, for example the breakdown of a vehicle. While solving the VRSP in various settings has been an
+ active area in operations research (OR) for decades, the ever-growing complexity of modern railway networks makes
+    dynamic real-time scheduling of traffic virtually impossible. Recently, multi-agent reinforcement learning (MARL)
+ has successfully tackled challenging tasks where many agents need to be coordinated, such as multiplayer video games
+ . However, the coordination of hundreds of agents in a real-life setting like a railway network remains challenging
+    and the Flatland environment used for the competition models these real-world properties in a simplified manner.
+    Submissions had to bring as many trains (agents) to their target stations in as little time as possible. While
+    the best submissions were in the OR category, participants found many promising MARL approaches. Using both
+    centralized and decentralized learning based approaches, top submissions used graph representations of the
+    environment to construct tree-based observations. Further, different coordination mechanisms were implemented,
+    such as communication and prioritization between agents. This paper presents the competition setup, four
+    outstanding solutions to the competition, and a cross-comparison between them.},
+    bibtex_show = {true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{ivanov2021balancing,
+    title = {Balancing Rational and Other-Regarding Preferences in Cooperative-Competitive Environments},
+    author = {Ivanov, Dmitry and Egorov, Vladimir and Shpilman, Aleksei},
+    booktitle = {AAMAS '21: Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent
+    Systems},
+    pages = {Pages--1536},
+    year = {2021},
+    arxiv = {2102.12307},
+    website = {https://dl.acm.org/doi/abs/10.5555/3463952.3464151},
+    abstract = {Recent reinforcement learning studies extensively explore the interplay between cooperative and
+    competitive behaviour in mixed environments. Unlike cooperative environments where agents strive towards a common
+ goal, mixed environments are notorious for the conflicts of selfish and social interests. As a consequence, purely
+    rational agents often struggle to achieve and maintain cooperation. A prevalent approach to induce cooperative
+    behaviour is to assign additional rewards based on other agents' well-being. However, this approach suffers from
+    the issue of multi-agent credit assignment, which can hinder performance. This issue is efficiently alleviated in
+ cooperative setting with such state-of-the-art algorithms as QMIX and COMA. Still, when applied to mixed
+    environments, these algorithms may result in unfair allocation of rewards. We propose BAROCCO, an extension of
+    these algorithms capable to balance individual and social incentives. The mechanism behind BAROCCO is to train
+    two distinct but interwoven components that jointly affect each agent's decisions. Our meta-algorithm is
+    compatible with both Q-learning and Actor-Critic frameworks. We experimentally confirm the advantages over the
+    existing methods and explore the behavioural aspects of BAROCCO in two mixed multi-agent setups.},
+    bibtex_show = {true},
+}
+
+@inproceedings{ivanov2020dedpul,
+    title = {DEDPUL: Difference-of-Estimated-Densities-based Positive-Unlabeled Learning},
+    author = {Ivanov, Dmitry},
+    booktitle = {19th IEEE International Conference on Machine Learning and Applications (ICMLA)},
+    pages = {782--790},
+    year = {2020},
+    website = {https://ieeexplore.ieee.org/abstract/document/9356188},
+    arxiv = {1902.06965},
+    abstract = {Positive-Unlabeled (PU) learning is an analog to supervised binary classification for the case when
+    only the positive sample is clean, while the negative sample is contaminated with latent instances of positive
+    class and hence can be considered as an unlabeled mixture. The objectives are to classify the unlabeled sample
+    and train an unbiased PN classifier, which generally requires to identify the mixing proportions of positives and
+ negatives first. Recently, unbiased risk estimation framework has achieved state-of-the-art performance in PU
+    learning. This approach, however, exhibits two major bottlenecks. First, the mixing proportions are assumed to be
+ identified, i.e. known in the domain or estimated with additional methods. Second, the approach relies on the
+    classifier being a neural network. In this paper, we propose DEDPUL, a method that solves PU Learning without the
+ aforementioned issues. The mechanism behind DEDPUL is to apply a computationally cheap post-processing procedure to
+    the predictions of any classifier trained to distinguish positive and unlabeled data. Instead of assuming the
+    proportions to be identified, DEDPUL estimates them alongside with classifying unlabeled sample. Experiments show
+ that DEDPUL outperforms the current state-of-the-art in both proportion estimation and PU Classification.},
+    bibtex_show = {true},
+}
+
+@inproceedings{ivanov2019identifying,
+    title = {Identifying bid leakage in procurement auctions: Machine learning approach},
+    author = {Ivanov, Dmitry and Nesterov, Alexander},
+    booktitle = {Proceedings of the 2019 ACM Conference on Economics and Computation},
+    pages = {69--70},
+    year = {2019},
+    website = {https://dl.acm.org/doi/abs/10.1145/3328526.3329642},
+    arxiv = {1903.00261},
+    abstract = {Bid leakage is a corrupt scheme in a first-price sealed-bid auction in which the procurer leaks the
+    opponents' bids to a favoured participant. The rational behaviour of such participant is to bid close to the
+    deadline in order to receive all bids, which allows him to ensure his win at the best price possible. While such
+    behaviour does leave detectable traces in the data, the absence of bid leakage labels makes supervised
+    classification impossible. Instead, we reduce the problem of the bid leakage detection to a positive-unlabeled
+    classification. The key idea is to regard the losing participants as fair and the winners as possibly corrupted.
+    This allows us to estimate the prior probability of bid leakage in the sample, as well as the posterior
+    probability of bid leakage for each specific auction.
+    We extract and analyze the data on 600,000 Russian procurement auctions between 2014 and 2018. We find that around
+    9% of the auctions are exposed to bid leakage, which results in an overall 1.5% price increase. The predicted
+    probability of bid leakage is higher for auctions with a higher reserve price, with too low or too high number of
+ participants, and if the winner has met the auctioneer in earlier auctions.},
+    bibtex_show = {true},
 }
