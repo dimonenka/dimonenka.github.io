@@ -61,7 +61,7 @@ which we cannot modify directly, but can influence externally through designed m
 rules governing their interactions with the world, each other, and us.
 This concept I study through the lens of Multi-Agent Reinforcement Learning.
 
-I believe that AGI is an inevitability (by 
+I believe that Artificial General Intelligence is an inevitability (by 
 <a href="https://arbital.com/p/orthogonality/" target="_blank" rel="noopener noreferrer">orthogonality</a> and 
 <a href="https://arbital.com/p/instrumental_convergence/" target="_blank" rel="noopener noreferrer">instrumental convergence</a>), 
 but safe AGI with values aligned to ours (whatever that means) is the true grand challenge.
