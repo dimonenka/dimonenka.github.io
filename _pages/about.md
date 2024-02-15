@@ -67,4 +67,3 @@ I believe that AGI is an inevitability (by
 but safe AGI with values aligned to ours (whatever that means) is the true grand challenge.
 Given that Game Theory and Mechanism Design explicitly concern alignment of incentives,
 integrating these fields into AI research is a necessary precursor towards safe AGI.
-
