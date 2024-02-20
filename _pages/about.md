@@ -15,6 +15,62 @@ additional_content: |
   - Reviewer at NeurIPS 2022 -- The 36th Annual Conference on Neural Information Processing Systems
   - Subreviewer at OPTIMA 2021 -- The XII International Conference "Optimization and Applications"
   - Subreviewer at LOD 2020 -- The 6th International Conference on Machine Learning, Optimization, and Data Science
+  
+  <h2 style="color: inherit">Personal Statement</h3>
+  
+  On February 24th, 2022, Russian forces invaded Ukraine.
+  It took me a while to even realize what had happened and what the consequences might be.
+  But a week later, I left my hometown of St. Petersburg with my wife out of concern about getting drafted 
+  to fight in an unjust, cruel, and unnecessary war.
+  
+  We went to visit my wife's parents in Kazakhstan -- a `short vacation' as we declared to border control.
+  The decision was made spontaneously. 
+  As we woke up one day, we found and bought flight tickets for the evening, having only few hours to pack.
+  This is not an uncommon story.
+  
+  The company I was working for, JetBrains, openly condemned the war and made plans to leave the country in a month.
+  I was offered a relocation package but declined.
+  
+  Few months went by. Feeling no immediate threat, we returned to St. Petersburg.
+  Life was eerily unchanged, apart from vomit-inducing banners with a letter `Z'.
+  
+  I was fortunate to get a postdoctoral position at Technion in Haifa, Israel.
+  My starting date and the day we relocated was September 20th, which is also my birthday.
+  On September 21st, Russia began a massive military recruitment, causing a second mass relocation wave.
+  We dodged this bullet by one day. I still haven't been back.
+  
+  In Israel, I was hoping to heal mentally and focus on professional development. 
+  One can imagine how that went.
+  
+  Again, it took us about a week to decide to go on a short vacation -- this time to Istanbul.
+  We came back in only a few weeks -- perhaps being more experienced.
+  Despite the still looming threat of war escalation and acts of terror, 
+  the prospects of returning to Russia even temporarily seem as dangerous, so we are staying put.
+  
+  However difficult, I try to stay positive and focus on advancing my academic career.
+  Turning down relocation in favour of the uncertainty in the early days of war was not easy,
+  but I was confident in my ability to find a better position that allows me to continue research.
+  Which I did.
+  To my ability, I make an effort to meet new people and engage in new projects.
+  I am proud of the research I've contributed to in the past few years.
+  
+  I want to deeply and sincerely thank all my friends who have and continue to care, support, and help.
+  Fedor Sandomirsky who proactively referred me to his former colleagues in Technion.
+  Herve Moulin who wrote me a recommendation letter despite us not working on any joint projects.
+  My PhD advisor, Alexander Nesterov, who always offered me advice and a place at the Game Theory lab in HSE University.
+  My Israeli colleagues, Omer Ben-Porat and Inbal Talgam-Cohen, 
+  who expressed compassion and eagerness to help despite being incomparably more affected by the despicable events of October 7th.
+  My international colleagues, David Parkes, Paul Duetting, and Tonghan Wang, who offered sympathy as events were unfolding.
+  My wife Xenia who is staying by my side.
+  And our cat Beba who is a consistent source of dopamine and scratches.
+  
+  <img src="/assets/img/beba.jpg" alt="" style="display: block; margin: auto; width: 25%;">
+  
+  Hoping for a better future,
+
+  Dima
+
+  20.02.2024
 
 profile:
   align: right
