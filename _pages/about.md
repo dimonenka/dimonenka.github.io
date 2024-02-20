@@ -16,7 +16,7 @@ additional_content: |
   - Subreviewer at OPTIMA 2021 -- The XII International Conference "Optimization and Applications"
   - Subreviewer at LOD 2020 -- The 6th International Conference on Machine Learning, Optimization, and Data Science
   
-  <h2 style="color: inherit">Personal Statement</h3>
+  <h2 style="color: inherit">Personal Statement</h2>
   
   On February 24th, 2022, Russian forces invaded Ukraine.
   It took me a while to even realize what had happened and what the consequences might be.
@@ -64,7 +64,7 @@ additional_content: |
   My wife Xenia who is staying by my side.
   And our cat Beba who is a consistent source of dopamine and scratches.
   
-  <img src="/assets/img/beba.jpg" alt="" style="display: block; margin: auto; width: 25%;">
+  <img src="/assets/img/beba.jpg" alt="" style="display: block; margin: auto; width: 33%;">
   
   Hoping for a better future,
 
