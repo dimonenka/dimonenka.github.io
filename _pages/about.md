@@ -89,7 +89,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a postdoc in the 
+I am a research scientist in AI and Game Theory, including Multi-Agent Reinforcement Learning 
+with a focus on incentive alignment and cooperation, as well as Automated Mechanism Design.
+
+Currently, I am a postdoc in the 
 <a href="https://dds.technion.ac.il/" target="_blank" rel="noopener noreferrer">Data and Decision Sciences</a>
 faculty at Technion in Haifa, Israel.
 Prior to this, I pursued my doctoral studies at the Higher School of Economics in St. Petersburg, Russia, 
@@ -102,7 +105,7 @@ Contact me via divanov.ml@gmail.com
 
 <h3 style="color: inherit">Research Interests</h3>
 
-My research lies at the intersection of Artificial Intelligence and Game Theory, focusing on two main directions.
+My research lies at the intersection of AI and Game Theory, focusing on two directions.
 
 One direction is to apply methods of Machine Learning to economic problems.
 As a notable example, automated design of economic mechanisms 
@@ -117,9 +120,10 @@ which we cannot modify directly, but can influence externally through designed m
 rules governing their interactions with the world, each other, and us.
 This concept I study through the lens of Multi-Agent Reinforcement Learning.
 
-I believe that Artificial General Intelligence is an inevitability (by 
+Despite the rising concerns in academy and society alike, I do not believe that
+Artificial General Intelligence is imminent. Still, by the principles of
 <a href="https://arbital.com/p/orthogonality/" target="_blank" rel="noopener noreferrer">orthogonality</a> and 
-<a href="https://arbital.com/p/instrumental_convergence/" target="_blank" rel="noopener noreferrer">instrumental convergence</a>), 
-but safe AGI with values aligned to ours (whatever that means) is the true grand challenge.
-Given that Game Theory and Mechanism Design explicitly concern alignment of incentives,
+<a href="https://arbital.com/p/instrumental_convergence/" target="_blank" rel="noopener noreferrer">instrumental convergence</a>, 
+it is inevitable, and ensuring its safety and alignment with our values (whatever that means) is vital.
+Given that Game Theory, Mechanism Design, and related fields explicitly concern alignment of incentives,
 integrating these fields into AI research is a necessary precursor towards safe AGI.
