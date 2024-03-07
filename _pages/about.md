@@ -135,10 +135,6 @@ In 2020, I received a
 <a href="https://yandex.com/scholarships/" target="_blank" rel="noopener noreferrer">Yandex ML Prize</a>
 award based on my
 <a href="https://dl.acm.org/doi/abs/10.1145/3328526.3329642" target="_blank" rel="noopener noreferrer">EC publication</a>.
-Yandex, an international IT company, annually awards a handful of young researchers (typically, students) 
-from Russia and neighboring countries with monetary prizes and research grants. 
-The applications are reviewed based on the scientific contribution of the published research, 
-as well as a behavioral interview. That year, nine researchers were awarded.
 
 I was also a part of a
 <a href="https://discourse.aicrowd.com/t/neurips-2020-flatland-winners/4010" target="_blank" rel="noopener noreferrer">team</a>
