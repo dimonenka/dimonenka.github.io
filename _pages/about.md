@@ -139,7 +139,7 @@ award based on my
 Yandex, an international IT company, annually awards a handful of young researchers (typically, students) 
 from Russia and neighboring countries with monetary prizes and research grants. 
 The applications are reviewed based on the scientific contribution of the published research, 
-as well as a behavioral interview. That year, nine researchers were awarded the prize.
+as well as a behavioral interview. That year, nine researchers were awarded.
 
 I was also a part of a
 <a href="https://discourse.aicrowd.com/t/neurips-2020-flatland-winners/4010" target="_blank" rel="noopener noreferrer">team</a>
