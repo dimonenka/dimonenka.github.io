@@ -83,14 +83,14 @@ profile:
       </a>
     </div>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 I am a research scientist in **AI and Game Theory**, including **Multi-Agent Reinforcement Learning** 
-with a focus on **incentive alignment and cooperation**, as well as **Automated Mechanism Design**.
+with a focus on **incentive alignment** and **cooperation**, as well as **Automated Mechanism Design**.
 
 Currently, I am a postdoc in the 
 <a href="https://dds.technion.ac.il/" target="_blank" rel="noopener noreferrer">Data and Decision Sciences</a>
@@ -103,9 +103,10 @@ lab at the Higher School of Economics, as well as in the Reinforcement Learning 
 
 Contact me via divanov.ml@gmail.com
 
-<h3 style="color: inherit">Research Interests</h3>
 
-My research lies at the intersection of AI and Game Theory, focusing on two directions.
+<h2 style="color: inherit">Research Interests</h2>
+
+My research lies at the intersection of AI and Game Theory, focusing on two main directions.
 
 One direction is to apply methods of Machine Learning to economic problems.
 As a notable example, automated design of economic mechanisms 
@@ -120,10 +121,32 @@ which we cannot modify directly, but can influence externally through designed m
 rules governing their interactions with the world, each other, and us.
 This concept I study through the lens of Multi-Agent Reinforcement Learning.
 
-Despite the rising concerns in academy and society alike, I do not believe that
-Artificial General Intelligence is imminent. Still, by the principles of
+Despite the rising concerns in academy and society alike, I do not believe in the imminence of
+Artificial General Intelligence. Still, by the principles of
 <a href="https://arbital.com/p/orthogonality/" target="_blank" rel="noopener noreferrer">orthogonality</a> and 
 <a href="https://arbital.com/p/instrumental_convergence/" target="_blank" rel="noopener noreferrer">instrumental convergence</a>, 
 it is inevitable, and ensuring its safety and alignment with our values (whatever that means) is vital.
 Given that Game Theory, Mechanism Design, and related fields explicitly concern alignment of incentives,
 integrating these fields into AI research is a necessary precursor towards safe AGI.
+
+
+<h2 style="color: inherit">Achievements</h2>
+
+In 2020, I received a 
+<a href="https://yandex.com/scholarships/" target="_blank" rel="noopener noreferrer">Yandex ML Prize</a>
+award based on my
+<a href="https://dl.acm.org/doi/abs/10.1145/3328526.3329642" target="_blank" rel="noopener noreferrer">EC publication</a>.
+Yandex, an international IT company, annually awards a handful of young researchers (typically, students) 
+from Russia and neighboring countries with monetary prizes and research grants. 
+The applications are reviewed based on the scientific contribution of the published research, 
+as well as a behavioral interview. That year, nine researchers were awarded the prize.
+
+I was also a part of a
+<a href="https://discourse.aicrowd.com/t/neurips-2020-flatland-winners/4010" target="_blank" rel="noopener noreferrer">team</a>
+that placed first in the 
+<a href="https://www.aicrowd.com/challenges/flatland" target="_blank" rel="noopener noreferrer">Flatland</a>
+Multi-Agent RL competition at NeurIPS 2020.
+The task was to manage dense traffic in a simulated environment of complex railway networks, 
+requiring planning and coordination. Our solution is described in a 
+<a href="https://proceedings.mlr.press/v133/laurent21a/laurent21a.pdf" target="_blank" rel="noopener noreferrer">publication</a>
+at the NeurIPS competition track (Section 4.2).
