@@ -5,7 +5,6 @@ permalink: /
 subtitle: Aligned with AI
 
 additional_content: |
-
   <h2 style="color: inherit">Reviewer Activities</h2>
   - Program Chair at EC 2024 -- The 25th ACM Conference on Economics and Computation
   - Reviewer at ICML 2024 -- The 41st International Conference on Machine Learning
