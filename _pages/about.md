@@ -55,7 +55,7 @@ One direction is to apply methods of Machine Learning to economic problems.
 As a notable example, automated design of economic mechanisms 
 employs data-driven ML approaches to discover 
 (approximately) optimal mechanisms with desirable properties, 
-moving beyond traditional reliance on theorems and proofs.
+moving beyond the pen-and-paper theoretic approach.
 In this area, I have contributed to auction and contract design through deep learning.
 
 The other direction is to take an economic perspective on AI problems.
